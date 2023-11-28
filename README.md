@@ -6,6 +6,7 @@ Cafe ChatBot is an AI-powered conversational agent designed to engage in meaning
 
 ![screen-1](screenshots/1.png?raw=true)
 ![screen-2](screenshots/2.png?raw=true)
+![screen-3](screenshots/3.png?raw=true)
 
 ## Key Features: 👨‍💻
 
