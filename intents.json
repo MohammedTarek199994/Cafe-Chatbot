@@ -1,0 +1,55 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [ "Hi" , "Hey" , "How are you" , "Is anyone there?" , "Hello" , "Good day" ],
+      "responses": [ "Hey :-)" , "Hello there!" , "Hi there, what can I do for you?" , "Hi there, how can I help?" ]
+    },
+    {
+      "tag": "price",
+      "patterns": ["What's the price","How much for coffee?","At what price","Give me the menu","menu please"],
+      "responses": [ "\n Coffee: 4$ \n Tea: 2$ \n Milkshake: 5$ \n Hot Chocolate: 6$ \n Ice coffee: 4$" ]
+    },
+    {
+      "tag": "order",
+      "patterns": [ "Can I order?", "May I order?" , "I want to order"],
+      "responses": ["Alright what do you want?\nEx: 1 Coffee, 3 Tea"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [ "Bye", "See you later", "Goodbye" ],
+      "responses": [ "See you later, thanks for visiting" , "Have a nice day", "Bye! Come back again soon." ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [ "Thanks", "Thank you", "That's helpful", "Thank's a lot!" ],
+      "responses": [ "Happy to help!", "Any time!", "My pleasure" ]
+    },
+    {
+      "tag": "items",
+      "patterns": [ "Which items do you have?", "What kinds of items are there?", "What do you sell?", "What do you have?","Do you have milkshake?","Do you have *?"],
+      "responses": ["We sell coffee, tea, milkshake, hot chocolate and ice coffee","We have coffee, tea, milkshake, hot chocolate and ice coffee"]
+    },
+    {
+      "tag": "payments",
+      "patterns": ["Do you take credit cards?","Do you accept Mastercard?","Can I pay with Paypal?","Are you cash only?","How to pay ?"],
+      "responses": ["We accept VISA, Mastercard, Paypal and cash" ,"We accept most major credit cards, and cash"]
+    },
+    {
+      "tag": "delivery",
+      "patterns": ["How long does delivery take?","When do I get my delivery?","How much time to delivery?"],
+      "responses": ["Delivery takes 10-15 mins" , "Delivery usually takes 10-15 mins" , "You'll get your drink in just 10-15 mins"]
+    },
+    {
+      "tag": "funny",
+      "patterns": ["Tell me a joke!","Tell me something funny!","Do you know a joke?"],
+      "responses": ["There is no such thing as too much coffee.","Coffee, you mean my survival juice.","It really is a serius problem. If tea can't fix it."]
+    },
+    {
+      "tag": "positive",
+      "patterns": ["I am sad","I am crying","Say positive thing","I want to be happy"
+      ],
+      "responses": [ "Everything will be fine","I am proud of you","You will graduate soon","Go to the beach"]
+    }
+  ]
+}
